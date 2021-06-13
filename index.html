@@ -11,6 +11,17 @@
 <body>
     <h1>Akan Names Web App</h1>
     <p> This web application allows one to input their birth details after which Akan names are assigned to them based on their gender and outputted.</p>
-   
+    <form>
+        <div class="container">
+        <label for="fname">Birth Date:</label><br>
+        <input type="date" id="birthdate" name="birthdate" placeholder="dd/mm/yyyy"><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="submit" id ="submit"value="Submit">
+        </div>
+      </form>
+      <script src="/static/js/main.js"></script>
 </body>
 </html>
