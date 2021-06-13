@@ -4,8 +4,9 @@ body {
     background-color: aqua;
     background-position: center;
     background-size: cover;
+    
     }
-    h1 {
+h1 {
         color: rgb(190, 52, 17);
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         font-style:normal;
