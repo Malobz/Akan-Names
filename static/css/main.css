@@ -1,5 +1,5 @@
 body {
-    background-image: url("/static/images/back.jpg");
+    background-image: url(../images/back.jpg);
     height: 500px;
     background-color: aqua;
     background-position: center;
